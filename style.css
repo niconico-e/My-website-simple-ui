@@ -71,3 +71,37 @@ button:hover{
     cursor: pointer;
 
 }
+nav .logo{
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+    background:#555555;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    background:#555555;   
+
+    
+}
+nav ul li{
+    margin: 0px 5px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background:#555555;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background:#555555;
+    padding: 8px 10px;
+    
+}
